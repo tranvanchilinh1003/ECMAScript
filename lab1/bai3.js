@@ -1,7 +1,10 @@
-'use strict'
 
+var sayhello = function(name , gender){
+    console.log(`Hello tên tui là: ${name}. \n Tổi: ${gender}`);
 
-
+}
+sayhello(name = "Linh", gender = 19);
+sayhello(name = "Minh", gender = 19);
 
 fetch('https://api.publicapis.org/entries').then(function(response){
 response.json().then(function(data){

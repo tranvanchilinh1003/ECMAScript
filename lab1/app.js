@@ -1,11 +1,6 @@
 // var name = "Linh Trần";
 // var gender = 18;
-var sayhello = function(name , gender){
-    console.log(`Hello tên tui là: ${name}. \n Tổi: ${gender}`);
 
-}
-sayhello(name = "Linh", gender = 19);
-sayhello(name = "Minh", gender = 19);
 
 
 fetch('https://datausa.io/api/data?drilldowns=Nation&measures=Population').then(function(response){
