@@ -4,7 +4,7 @@ var sayhello = function(name , gender){
 
 }
 sayhello(name = "Linh", gender = 19);
-sayhello(name = "Minh", gender = 19);
+
 
 fetch('https://api.publicapis.org/entries').then(function(response){
 response.json().then(function(data){
