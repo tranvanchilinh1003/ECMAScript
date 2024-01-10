@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <ul class="nav nav-pills mt-3 bg-body-tertiary p-2 rounded-2 ">
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./bai1.html">Bài 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./bai2.html">Bài 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="bai3.html">Bài 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="bai4.html">Bài 4</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="bai5.html">Bài 5</a>
+            </li>
+        </ul>
+        <span id="item">
+
+        </span>
+    </div>
+
+
+
+    <script>
+        const arr1 = ['Jan', 'Feb', 'Mar', 'Apr', 'May'];
+        let arr2;
+        arr2 = [...arr1];
+        console.log(arr2);
+let product_item = `<p class=" mt-2">Mảng arr2: ${arr2 }</p>`;
+
+        document.getElementById('item').innerHTML = product_item;
+    </script>
+</body>
+
+</html>
