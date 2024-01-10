@@ -8,6 +8,7 @@ response.json().then(function(data){
     let itemApi = '';
     console.log(data);
     const apiData = data.data;
+    
     for(let i = 0; i < apiData.length; i++){
 
         itemApi += ` 

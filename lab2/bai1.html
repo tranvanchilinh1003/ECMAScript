@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1</title>
+</head>
+
+<body>
+
+    <script>
+        var foo = { bar: "Tao nè", baz: "Mầy nè" };
+        var { bar: a, baz: b } = foo;
+        console.log(a, b);
+
+        var nak = {
+            roth: {
+                junge: "Trừng Trị",
+                lane: "Rừng"
+            }
+
+        };
+        var { roth: { junge, lane } } = nak;
+        console.log(junge, lane);
+
+
+
+
+        let cuteo = [{ name: 'minh', age: 19 }, { name: 'linh', age: 19 }];
+        for (var { name, age } of cuteo) {
+            console.log(name, age);
+        
+        }
+
+    
+    </script>
+</body>
+
+</html>
