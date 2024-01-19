@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>LTShop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="styles/css/animate.css">
+
+    <link rel="stylesheet" href="styles/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="styles/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="styles/css/aos.css">
+
+    <link rel="stylesheet" href="styles/css/ionicons.min.css">
+    <link href="styles/images/LT SHOP (1).png" rel="icon">
+    <link rel="stylesheet" href="styles/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="styles/css/jquery.timepicker.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="styles/css/flaticon.css">
+    <link rel="stylesheet" href="styles/css/icomoon.css">
+    <link rel="stylesheet" href="styles/css/style.css">
+</head>
+<style>
+    .product-quantity {
+        display: flex;
+        align-items: center;
+    }
+
+    .quantity-btn {
+        padding: 5px 10px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .rating {
+        display: flex;
+
+    }
+
+    .ratings {
+        display: none;
+    }
+
+    .ratings+label {
+        cursor: pointer;
+        font-size: 1.5rem;
+        color: #aaa;
+    }
+
+    .ratings:checked+label,
+    .ratings:hover+label {
+        color: #ffcc00;
+        /* Màu khi được chọn hoặc hover */
+    }
+</style>
+
+<body>
+    <div class="py-1 bg-black top">
+        <div class="container">
+            <div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
+                <div class="col-lg-12 d-block">
+                    <div class="row d-flex">
+                        <div class="col-md pr-4 d-flex topper align-items-center">
+                            <div class="icon mr-2 d-flex justify-content-center align-items-center"><span
+                                    class="icon-phone2"></span>
+                            </div>
+                            <span class="text">+ 0962588413</span>
+                        </div>
+                        <div class="col-md pr-4 d-flex topper align-items-center">
+                            <div class="icon mr-2 d-flex justify-content-center align-items-center"><span
+                                    class="icon-paper-plane"></span></div>
+                            <span class="text">linhtvcpc06747@fpt.edu.vn</span>
+                        </div>
+                        <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
+                            <p class="mb-0 register-link"><span>Mở cửa:</span> <span>Thứ hai - Chủ nhật</span>
+                                <span>8:00 -
+                                    23:00</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="styles/images/LT SHOP (1).png" width="50px" alt=""> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item "><a href="index.html" class="nav-link">Trang chủ</a></li>
+                    <li class="nav-item dropdown" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+
+                        <a href="menu.html" class="nav-link">Thực đơn</a>
+                    </li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">Về chúng tôi</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Tin tức</a></li>
+                    <li class="nav-item "><a href="contact.html" class="nav-link">Liên hệ</a></li>
+                    <li class="nav-item dropdown" id="account" data-bs-toggle="dropdown" aria-expanded="false">
+
+                        <a href="#" class="nav-link">Tài khoản</a>
+
+                        <ul class="dropdown-menu" aria-labelledby="account">
+                            <li><a class="dropdown-item" href="login.html">Đăng nhập</a></li>
+                            <li><a class="dropdown-item" href="signup.html">Đăng ký</a></li>
+
+                        </ul>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END nav -->
+
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('styles/images/bg_3.jpg');"
+        data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row no-gutters slider-text align-items-end justify-content-center">
+                <div class="col-md-9 ftco-animate text-center mb-4">
+                    <h1 class="mb-2 bread">Chi tiết</h1>
+                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Trang chủ <i
+                                    class="ion-ios-arrow-forward"></i></a></span> <span>Chi tiết <i
+                                class="ion-ios-arrow-forward"></i></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ftco-section bg-light">
+        <section class="py-5">
+            <div class="container">
+                <div class="row gx-5">
+                    <aside class="col-lg-6">
+                        <div class="border rounded-4 mb-3 d-flex justify-content-center">
+                            <a data-fslightbox="mygalley" class="rounded-4" target="_blank" data-type="image" href="">
+                                <img style="max-width: 100%; max-height: 100vh; margin: auto;" class="rounded-4 fit"
+                                    src="styles/images/breakfast-1.jpg" />
+                            </a>
+                        </div>
+
+                        <!-- thumbs-wrap.// -->
+                        <!-- gallery-wrap .end// -->
+                    </aside>
+                    <main class="col-lg-6">
+                        <div class="ps-lg-3">
+                            <h4 class="title text-dark font-weight-bold">
+                                Mì xào kiểu thái
+                            </h4>
+
+
+                            <div class="mb-3">
+                                <span class="h5 text-danger">100.00đ</span>
+                                <span class="text-muted"></span>
+                            </div>
+
+                            <p>
+                                hủ tiếu xào với trứng và đậu phụ, ớt đỏ, bột me, nước mắm và đường thốt nốt
+                            </p>
+
+                            <hr />
+
+                            <div class="row mb-4">
+
+                                <!-- col.// -->
+                                <div class="col-md-4 col-6 mb-3">
+                                    <div class="product-quantity">
+                                        <button class="quantity-btn btn btn-outline-secondary"
+                                            onclick="decreaseQuantity()">-</button>
+                                        <input type="text" class="btn w-50 border" id="quantity" value="1">
+                                        <button class="quantity-btn btn btn-outline-secondary"
+                                            onclick="increaseQuantity()">+</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#"
+                                class="btn btn-warning shadow-0 text-center py-3 px-5 rounded-pill text-white font-weight-bold">
+                                Mua Ngay </a>
+                            <!-- <a href="#" class="btn btn-primary shadow-0"> <i class="me-1 fa fa-shopping-basket"></i> Add to cart </a>
+                    <a href="#" class="btn btn-light border border-secondary py-2 icon-hover px-3"> <i class="me-1 fa fa-heart fa-lg"></i> Save </a> -->
+                        </div>
+                    </main>
+                </div>
+                <form action="" id="comment-form" name="comment-form" class="comment-form">
+                    <h5 class="border-left py-2 px-3 border-danger font-weight-bold ">Bình luận</h5>
+                    <div class="rating" >
+                        <input type="radio" class="ratings" name="ratings" value="5" id="5"><label for="5">☆</label>
+                        <input type="radio" class="ratings" name="ratings" value="4" id="4"><label for="4">☆</label>
+                        <input type="radio" class="ratings" name="ratings" value="3" id="3"><label for="3">☆</label>
+                        <input type="radio" class="ratings" name="ratings" value="2" id="2"><label for="2">☆</label>
+                        <input type="radio" class="ratings" name="ratings" value="1" id="1"><label for="1">☆</label>
+                    </div>
+
+                    <span class="error text-danger"></span>
+
+                    <textarea name="" id="" cols="60" rows="3" placeholder="Bình luận của bạn" name="content"
+                        id="content"></textarea> <span class="error text-danger"></span><br>
+                    <button class="btn btn-danger px-4 py-2" type="submit"><i class="fa fa-location-arrow"
+                            name="pull_comment"></i>ĐĂNG</button>
+                </form>
+            </div>
+
+        </section>
+
+
+    </section>
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">LTShop</h2>
+                        <p>Ăn là yêu, mua sắm là niềm vui - LTShop chưa bao giờ làm bạn thất vọng!
+
+                        </p>
+                        <p>
+                            Đồ ăn tươi ngon, dịch vụ tận tâm - LTShop mang đến cho bạn trải nghiệm mua sắm đẳng cấp!
+                        </p>
+                        <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Mở cửa</h2>
+                        <ul class="list-unstyled open-hours">
+                            <li class="d-flex"><span>Thứ 2</span><span>8:00 - 23:00</span></li>
+                            <li class="d-flex"><span>Thứ 3</span><span>8:00 - 23:00</span></li>
+                            <li class="d-flex"><span>Thứ 4</span><span>8:00 - 23:00</span></li>
+                            <li class="d-flex"><span>Thứ 5</span><span>8:00 - 23:00</span></li>
+                            <li class="d-flex"><span>Thứ 6</span><span>8:00 - 23:00</span></li>
+                            <li class="d-flex"><span>Thứ 7</span><span>8:00 - 23:00</span></li>
+                            <li class="d-flex"><span>Chủ Nhật</span><span> 8:00 - 21:00</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Instagram</h2>
+                        <div class="thumb d-sm-flex">
+                            <a href="#" class="thumb-menu img"
+                                style="background-image: url(styles/images/insta-1.jpg);">
+                            </a>
+                            <a href="#" class="thumb-menu img"
+                                style="background-image: url(styles/images/insta-2.jpg);">
+                            </a>
+                            <a href="#" class="thumb-menu img"
+                                style="background-image: url(styles/images/insta-3.jpg);">
+                            </a>
+                        </div>
+                        <div class="thumb d-flex">
+                            <a href="#" class="thumb-menu img"
+                                style="background-image: url(styles/images/insta-4.jpg);">
+                            </a>
+                            <a href="#" class="thumb-menu img"
+                                style="background-image: url(styles/images/insta-5.jpg);">
+                            </a>
+                            <a href="#" class="thumb-menu img"
+                                style="background-image: url(styles/images/insta-6.jpg);">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Cảm nhận</h2>
+                        <p></p>
+                        <form action="#" id="form_feedback" class="subscribe-form">
+                            <div class="form-group">
+                                <input type="text" id="feedback" class="form-control mb-2 text-center"
+                                    placeholder="Cảm nhận của khách hàng">
+                                <span class="text-danger" id="loi"></span>
+                                <input type="submit" value="Gửi" class="form-control submit px-3">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+
+                    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> Được thực hiện bởi <i
+                            class="icon-heart" aria-hidden="true"> Linhtvcpc06747</i>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00" />
+        </svg></div>
+    <script>
+        let quantityInput = document.getElementById("quantity");
+
+        function increaseQuantity() {
+            let currentQuantity = parseInt(quantityInput.value);
+            quantityInput.value = currentQuantity + 1;
+        }
+
+        function decreaseQuantity() {
+            let currentQuantity = parseInt(quantityInput.value);
+            if (currentQuantity > 1) {
+                quantityInput.value = currentQuantity - 1;
+            }
+        }
+        
+    </script>
+
+    <script src="styles/js/jquery.min.js"></script>
+    <script src="styles/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="styles/js/popper.min.js"></script>
+    <script src="styles/js/bootstrap.min.js"></script>
+    <script src="styles/js/jquery.easing.1.3.js"></script>
+    <script src="styles/js/jquery.waypoints.min.js"></script>
+    <script src="styles/js/jquery.stellar.min.js"></script>
+    <script src="styles/js/owl.carousel.min.js"></script>
+    <script src="styles/js/jquery.magnific-popup.min.js"></script>
+    <script src="styles/js/aos.js"></script>
+    <script src="styles/js/jquery.animateNumber.min.js"></script>
+    <script src="styles/js/bootstrap-datepicker.js"></script>
+    <script src="styles/js/jquery.timepicker.min.js"></script>
+    <script src="styles/js/scrollax.min.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="styles/js/google-map.js"></script>
+    <script src="styles/js/main.js"></script>
+
+</body>
+
+</html>
