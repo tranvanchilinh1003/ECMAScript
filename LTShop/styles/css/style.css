@@ -9808,7 +9808,7 @@ textarea.form-control {
       width: 350px;
       height: 530px;
       background: #191919;
-      border-radius: 20px;
+      border-radius: 15px;
       overflow: hidden;
     }
     
@@ -9824,7 +9824,7 @@ textarea.form-control {
     }
     
     .card:hover::before {
-      top: -70%;
+      top: -60%;
       transform: skewY(390deg);
     }
     

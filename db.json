@@ -1,0 +1,163 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Món chính"
+    },
+    {
+      "id": 2,
+      "name": "Tráng miệng"
+    },
+    {
+      "id": 3,
+      "name": "Nước"
+    },
+    {
+      "id": 4,
+      "name": "Rượu"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "MÌ XÀO KIỂU THÁI",
+      "cate_id": 1,
+      "price": 100000,
+      "detail": "hủ tiếu xào với trứng và đậu phụ, ớt đỏ, bột me, nước mắm và đường thốt nốt",
+      "image": "breakfast-1.jpg"
+    },
+     {
+      "id": 2,
+      "name": "SMOOTHIE BOWL",
+      "cate_id": 1,
+      "price": 200000,
+      "detail": "món ăn pha chế thường được làm từ trái cây, rau củ quả.",
+      "image": "breakfast-3.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Salad trộn dầu dấm",
+      "cate_id": 1,
+      "price": 150000,
+      "detail": "Rau, ức gà, dầu dấm, trứng",
+      "image": "breakfast-2.jpg"
+    }
+  ],
+  "custumers": [
+    {
+      "id": 1,
+      "username": "linhk4",
+      "password": "linh123",
+      "full_name": "Linh Trần",
+      "address": "128 An Giang",
+      "email": "linhtvcpc06747@fpt.edu.vn",
+      "phone_number": "0962588413",
+      "image": "anh_dai_dien.jpg",
+      "gender": "Nam",
+      "role": "0"
+  },
+  {
+    "id": 2,
+    "username": "minhminh",
+    "password": "minh123",
+    "full_name": "Minh nguyễn",
+    "address": "Đồng Tháp",
+    "email": "minhnppc06594@fpt.edu.vn",
+    "phone_number": "095684157",
+    "image": "anh_dai_dien.jpg",
+    "gender": "Nam",
+    "role": "0"
+},
+{
+  "id": 3,
+  "username": "kiet123",
+  "password": "kiet123",
+  "full_name": "Kiệt Đặng",
+  "address": "Đồng Tháp",
+  "email": "dtuankiet2905@gmail.com",
+  "phone_number": "098756324",
+  "image": "anh_dai_dien.jpg",
+  "gender": "Nam",
+  "role": "0"
+}
+
+  ],
+  "orders": [
+    {
+    "id": 1,
+    "customer_name": "Linh Trần ",
+    "customer_address": "128 An Giang",
+    "customer_email": "linhtvcpc06747@fpt.edu.vn",
+    "customer_phone_number": "0962588413",
+    "created_date": "20/01/2024",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "customer_name": "Minh nguyễn ",
+    "customer_address": "Đồng Tháp",
+    "customer_email": "minhnppc06594@fpt.edu.vn",
+    "customer_phone_number": "095684157",
+    "created_date": "20/01/2024",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "customer_name": "Kiệt Đặng ",
+    "customer_address": "Đồng Tháp",
+    "customer_email": "dtuankiet2905@gmail.com",
+    "customer_phone_number": "098756324",
+    "created_date": "20/01/2024",
+    "status": "active"
+  }
+
+  ],
+  "order_details": [
+    {
+      "order_id": 1,
+      "product_id": 1,
+      "quantity": 2,
+      "unit_price": 200000
+    },
+    {
+      "order_id": 2,
+      "product_id": 2,
+      "quantity": 1,
+      "unit_price": 200000
+    },
+    {
+      "order_id": 3,
+      "product_id": 3,
+      "quantity": 2,
+      "unit_price": 300000
+    }
+
+
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "content": "Đồ ăn đây quá tuyệt vời giá cả ok",
+      "comment_date": "20/01/2024",
+      "product_id": 1,
+      "custumer_id": 1
+    
+    },
+    {
+      "id": 2,
+      "content": "Giá cả phải chăng, đồ ăn thì tươi 10đ",
+      "comment_date": "20/01/2024",
+      "product_id": 2,
+      "custumer_id": 2
+    
+    },
+    {
+      "id": 3,
+      "content": "Shop làm ăn quá ok",
+      "comment_date": "20/01/2024",
+      "product_id": 3,
+      "custumer_id": 3
+    
+    }
+  ]
+}
