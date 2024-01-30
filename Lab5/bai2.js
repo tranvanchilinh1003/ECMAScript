@@ -1,11 +1,12 @@
 'use strict'
 
 class Shape{
-    constructor(x, y){
+    move(x, y){
         this.x = x;
         this.y = y;
         console.log(`${this.x} ${this.y}`);
     }
 }
 
-let a = new Shape("Hàm x", "Hàm y");
+let a = new Shape();
+a.move("Hàm x", "Hàm y");
